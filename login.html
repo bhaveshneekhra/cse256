@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>PU Elections</title>
+	
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCHm8VRKweg4ounHIT8tRc2R0iDA4miIqE",
+    authDomain: "cse256-it.firebaseapp.com",
+    databaseURL: "https://cse256-it.firebaseio.com",
+    projectId: "cse256-it",
+    storageBucket: "",
+    messagingSenderId: "1013076577938"
+  };
+  firebase.initializeApp(config);
+</script>
+</head>
+<body>
+	<div align="center">
+	<form method="POST" action="login.php">
+		Username:<input type="text" name="username" required="">
+		<br /><br />
+		Password:<input type="password" name="password" required="">
+		<br /><br />
+		<input type="submit" name="submit" value="Login">
+		<br />
+	</form>
+	</div>
+</body>
+
+</html>
